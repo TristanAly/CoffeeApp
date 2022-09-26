@@ -21,10 +21,20 @@ struct CoffeeDetailView: View {
                 .resizable()
                 .frame(width: 400,height: 300)
             VStack(alignment: .leading){
-                Text(coffee.type)
-                    .font(.title2)
-                    .bold()
-                    .padding(3)
+                HStack{
+                    Text(coffee.type)
+                        .font(.title2)
+                        .bold()
+                        .padding(3)
+                    Spacer()
+                        VStack{
+                            Image(systemName: coffee.wifi ? "wifi" : "wifi.slash")
+                                .font(.title2)
+                            Text(coffee.wifi ? "Wifi on" : "No wifi")
+                                .padding(.vertical, 5)
+                        }
+                        .foregroundColor(coffee.wifi ? .green : .red)
+                }.padding()
                 Text(coffee.address)
                     .font(.title3)
             }.padding(.horizontal)
@@ -38,6 +48,7 @@ struct CoffeeDetailView: View {
                  Spacer()
             }
             .padding()
+            Spacer()
         }
     }
 }
