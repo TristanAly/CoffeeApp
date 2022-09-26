@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CoffeeModel: Identifiable, Codable  {
+struct CoffeeModel: Identifiable, Codable, Equatable  {
     var id: Int
     var name: String
     var lat: Double

@@ -12,6 +12,7 @@ struct CoffeeAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(CoffeeViewModel())
         }
     }
 }
