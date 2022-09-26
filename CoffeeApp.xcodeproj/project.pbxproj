@@ -19,6 +19,7 @@
 		175286DC28E1B13300CCCE6A /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286DB28E1B13300CCCE6A /* CustomAnnotation.swift */; };
 		175286DE28E1B62300CCCE6A /* CoffeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286DD28E1B62300CCCE6A /* CoffeeDetailView.swift */; };
 		175286E028E1CA0A00CCCE6A /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286DF28E1CA0A00CCCE6A /* LocationPreviewView.swift */; };
+		175286E328E1EC3800CCCE6A /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286E228E1EC3800CCCE6A /* UserLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		175286DB28E1B13300CCCE6A /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		175286DD28E1B62300CCCE6A /* CoffeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetailView.swift; sourceTree = "<group>"; };
 		175286DF28E1CA0A00CCCE6A /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		175286E228E1EC3800CCCE6A /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				175286DD28E1B62300CCCE6A /* CoffeeDetailView.swift */,
 				175286CB28E1937200CCCE6A /* CoffeeMapView.swift */,
 				175286DF28E1CA0A00CCCE6A /* LocationPreviewView.swift */,
+				175286E228E1EC3800CCCE6A /* UserLocation.swift */,
 				175286DB28E1B13300CCCE6A /* CustomAnnotation.swift */,
 			);
 			path = Views;
@@ -195,6 +198,7 @@
 				175286CC28E1937200CCCE6A /* CoffeeMapView.swift in Sources */,
 				175286D728E1A58700CCCE6A /* ListCoffee.swift in Sources */,
 				175286E028E1CA0A00CCCE6A /* LocationPreviewView.swift in Sources */,
+				175286E328E1EC3800CCCE6A /* UserLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

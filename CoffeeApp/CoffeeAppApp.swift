@@ -9,10 +9,13 @@ import SwiftUI
 
 @main
 struct CoffeeAppApp: App {
+    
+    @StateObject private var vm = CoffeeViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(CoffeeViewModel())
+            CoffeeMapView()
+                .environmentObject(vm)
         }
     }
 }

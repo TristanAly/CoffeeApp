@@ -11,6 +11,7 @@ struct LocationPreviewView: View {
     
     @EnvironmentObject private var vm: CoffeeViewModel
     var location: CoffeeModel
+//    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
             VStack{

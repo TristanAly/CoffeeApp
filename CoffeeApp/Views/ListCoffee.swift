@@ -10,6 +10,7 @@ import SwiftUI
 struct ListCoffee: View {
     
     @EnvironmentObject var vm:  CoffeeViewModel
+    @State var showLocationsList: Bool = false
     
     var body: some View {
         NavigationView{
@@ -21,7 +22,14 @@ struct ListCoffee: View {
                         Text(coffee.name)
                             .font(.title2)
                     }
+                    .onReceive(vm.$showLocationsList) { showLocationlist in
+                        self.showLocationsList = showLocationsList
+                    }
+                    .onChange(of: showLocationsList) { newValue in
+                        self.showLocationsList = newValue
+                    }
                 }
+                
             }
             .listStyle(.plain)
         }
