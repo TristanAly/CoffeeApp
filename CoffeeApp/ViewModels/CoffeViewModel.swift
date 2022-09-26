@@ -45,7 +45,8 @@ class CoffeeViewModel: ObservableObject {
   }
     func toggleLocationsList() {
             withAnimation(.easeInOut) {
-                showLocationsList = !showLocationsList
+//                showLocationsList = !showLocationsList
+                showLocationsList.toggle()
               
             }
         }
