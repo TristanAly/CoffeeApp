@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170D7F7129200E7500D86791 /* MapView.png in Resources */ = {isa = PBXBuildFile; fileRef = 170D7F7029200E7500D86791 /* MapView.png */; };
 		175286BA28E18FF500CCCE6A /* CoffeeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286B928E18FF500CCCE6A /* CoffeeAppApp.swift */; };
 		175286BC28E18FF500CCCE6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286BB28E18FF500CCCE6A /* ContentView.swift */; };
 		175286BE28E18FF600CCCE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175286BD28E18FF600CCCE6A /* Assets.xcassets */; };
@@ -19,10 +20,10 @@
 		175286DC28E1B13300CCCE6A /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286DB28E1B13300CCCE6A /* CustomAnnotation.swift */; };
 		175286DE28E1B62300CCCE6A /* CoffeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286DD28E1B62300CCCE6A /* CoffeeDetailView.swift */; };
 		175286E028E1CA0A00CCCE6A /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286DF28E1CA0A00CCCE6A /* LocationPreviewView.swift */; };
-		175286E328E1EC3800CCCE6A /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175286E228E1EC3800CCCE6A /* UserLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		170D7F7029200E7500D86791 /* MapView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapView.png; sourceTree = "<group>"; };
 		175286B628E18FF500CCCE6A /* CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175286B928E18FF500CCCE6A /* CoffeeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppApp.swift; sourceTree = "<group>"; };
 		175286BB28E18FF500CCCE6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		175286DB28E1B13300CCCE6A /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		175286DD28E1B62300CCCE6A /* CoffeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetailView.swift; sourceTree = "<group>"; };
 		175286DF28E1CA0A00CCCE6A /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
-		175286E228E1EC3800CCCE6A /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170D7F6F29200E5400D86791 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				170D7F7029200E7500D86791 /* MapView.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		175286AD28E18FF500CCCE6A = {
 			isa = PBXGroup;
 			children = (
+				170D7F6F29200E5400D86791 /* Images */,
 				175286B828E18FF500CCCE6A /* CoffeeApp */,
 				175286B728E18FF500CCCE6A /* Products */,
 			);
@@ -104,7 +113,6 @@
 				175286DD28E1B62300CCCE6A /* CoffeeDetailView.swift */,
 				175286CB28E1937200CCCE6A /* CoffeeMapView.swift */,
 				175286DF28E1CA0A00CCCE6A /* LocationPreviewView.swift */,
-				175286E228E1EC3800CCCE6A /* UserLocation.swift */,
 				175286DB28E1B13300CCCE6A /* CustomAnnotation.swift */,
 			);
 			path = Views;
@@ -179,6 +187,7 @@
 				175286D328E19D2900CCCE6A /* places.json in Resources */,
 				175286C128E18FF600CCCE6A /* Preview Assets.xcassets in Resources */,
 				175286BE28E18FF600CCCE6A /* Assets.xcassets in Resources */,
+				170D7F7129200E7500D86791 /* MapView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +207,6 @@
 				175286CC28E1937200CCCE6A /* CoffeeMapView.swift in Sources */,
 				175286D728E1A58700CCCE6A /* ListCoffee.swift in Sources */,
 				175286E028E1CA0A00CCCE6A /* LocationPreviewView.swift in Sources */,
-				175286E328E1EC3800CCCE6A /* UserLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
